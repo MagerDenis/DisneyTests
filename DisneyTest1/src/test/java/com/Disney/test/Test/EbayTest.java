@@ -26,7 +26,7 @@ public class EbayTest extends Base {
 
 		System.out.println("\n\nTest: Open home page. Serch for guitar. Open First Get price. Print Price");
 
-		obj.EbayHomePage(driver).enterSearchContext("Guitar");
+		obj.EbayHomePage(driver).enterSearchContext("Electric Guitar");
 		obj.EbayHomePage(driver).clickSearch();
 		
 		//Select first. Not "Sponsored"
